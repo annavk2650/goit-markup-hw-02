@@ -1,0 +1,97 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+body {
+    background-color:#F5F5F5;
+    color: var(--primary-text-color);
+}
+/* logo */
+.logo {
+    color: #2196F3;
+    color: #000000;
+}
+.list {
+    list-style: none;
+}
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+/* contact-nav*/
+.contact-nav .link {
+    color: var(--title-text-color);
+}
+.contact-nav a {
+    color: var(--primary-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+/* hero*/
+.hero {
+    background-color: #2F303A;
+    color: var(--primary-white-color);
+}
+.hero-text {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+/*section*/
+/* .section {
+    background-color: #F5F5F5;
+    color: #757575;
+} */
+.section-title {
+    color: var(--title-text-color);
+}
+.feature-list .title {
+    color: var(--title-text-color);
+}
+/*team*/
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+    color: var(--title-text-color);
+}
+/*footer*/
+.footer {
+    background-color: #2F303A;
+}
+.footer .aside {
+    color: var(--primary-white-color);
+}
+.footer .aside:hover,
+.footer .aside:focus {
+    color: var(--accent-color);
+}
+.footer .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+/* основной цвет текста color: #212121 */
+/* вторичний цвет текста color: #757575 */
+/* лого color: #2196F3; #000000 */ 
+/* студия и почта color: #2196F3; */ 
+/* телефон color: #757575; */
+/* белій color: #FFFFFF; */
+/* футер почта и телефон color: rgba(255, 255, 255, 0.6); */
+/* акцентній background: #2196F3;
